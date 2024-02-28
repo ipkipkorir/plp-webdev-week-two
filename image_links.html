@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-dev week two</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Images and Links in Web Development</h1>
+        <nav>
+            <a href="image_links.html">Home</a>
+            <a href="#gallery-section">Gallery</a>
+            <a href="#menu-section">Menu</a>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome-section">
+            <div id="banner-div">
+                <p id="banner-text">
+                    Welcome, <br> explore your world!
+                </p>
+            </div>
+            <div>
+                <a href="https://www.hp.com/us-en/home.html" target="_blank" rel="noopener noreferer">
+                    <img 
+                    id="banner-img"
+                    src="images/tech.jpg" 
+                    title="Technology Industry" 
+                    alt="Technology Image">
+                </a>
+            </div>
+        </section>
+        <section id="gallery-section">
+            <br><br>
+            <h2 class="heading-2">Nature Gallery</h2>
+            <div>
+                <div id="nature-img-container-div">
+                    <figure class="nature-img-container-fig">
+                        <a href="https://www.istockphoto.com/search/2/image-film?family=creative&phrase=congo%20forest" target="_blank" rel="noopener noreferer">
+                            <img src="images/nature/forest.jpg" alt="Natural Forest In Congo">
+                        </a>
+                        <figcaption>Congo Natural Forest</figcaption>
+                    </figure>
+                    <figure class="nature-img-container-fig">
+                        <a href="https://www.istockphoto.com/photo/beautiful-northern-namibian-savannah-landscape-at-sunset-gm493582984-76969925?phrase=grassland+savanna&searchscope=image%2Cfilm" target="_blank" rel="noopener noreferer">
+                            <img src="images/nature/savanna.jpg" alt="Grassland Savanna">
+                        </a>
+                        <figcaption>Grassland Savanna</figcaption>
+                    </figure>
+                    <figure class="nature-img-container-fig">
+                        <a href="https://www.istockphoto.com/photo/great-blue-heron-in-lily-pond-gm1331811410-414843102?phrase=swamp&searchscope=image%2Cfilm" target="_blank" rel="noopener noreferer">
+                            <img src="images/nature/swamp.jpg" alt="Swampy Land">
+                        </a>
+                        <figcaption>Swampy Land</figcaption>
+                    </figure>
+                    <figure class="nature-img-container-fig">
+                        <a href="https://www.istockphoto.com/photo/tropical-beach-in-the-maldives-gm1273249455-375179351?phrase=indian%2Bocean&searchscope=image%2Cfilm" target="_blank" rel="noopener noreferer">
+                            <img src="images/nature/beach.jpg" alt="Indian Ocean Beach">
+                        </a>
+                        <figcaption>Indian Ocean Beach</figcaption>
+                    </figure>
+                    <figure class="nature-img-container-fig">
+                        <a href="https://www.istockphoto.com/photo/sunny-day-in-the-wilderness-of-namibia-gm1364755914-435857007?phrase=kalahari+hot+desert&searchscope=image%2Cfilm" target="_blank" rel="noopener noreferer">
+                            <img src="images/nature/hot-desert.jpg" alt="Hot Desert">
+                        </a>
+                        <figcaption>Hot Desert</figcaption>
+                    </figure>
+                    <figure class="nature-img-container-fig">
+                        <a href="https://media.istockphoto.com/id/1081365424/photo/aerial-view-of-famous-victoria-falls-zimbabwe-and-zambia.jpg?s=1024x1024&w=is&k=20&c=uAuBcK5zQ5XgN-ep0mEXmJaZZemB89PbtjtjeWsHwVU=" target="_blank" rel="noopener noreferer">
+                            <img src="images/nature/victoria-falls.jpg" alt="Victoria Water Falls, Zambezi River">
+                        </a>
+                        <figcaption>River Zambezi's Victoria Water Falls</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+        </section>
+        <section id="menu-section">
+            <br><br>
+            <h2 class="heading-2">Food Menu</h2>
+            <div>
+                
+                <ul>
+                    <li><a class="menu" href="#beef" target="_blank" rel="noopener noreferer">Beef</a></li>
+                    <li><a class="menu" href="#fruits" target="_blank" rel="noopener noreferer">Fruits</a></li>
+                    <li><a class="menu" href="#vegetables" target="_blank" rel="noopener noreferer">Vegetabless</a></li>
+                    <li><a class="menu" href="#ugali" target="_blank" rel="noopener noreferer">Ugali</a></li>
+                </ul>
+            </div>
+            <div id="menu-img-container-div">
+                <figure id="beef" class="menu-img-container-fig">
+                    <img src="images/menu/beef.jpg" alt="Beef" title="Fresh Beef">
+                    <figcaption>Fresh Beef.</figcaption>
+                </figure>
+                <figure id="fruits" class="menu-img-container-fig">
+                    <img src="images/menu/fruits.jpg" alt="Fruits" title="Fresh Fruits">
+                    <figcaption>Fresh Fruits.</figcaption>
+                </figure>
+                <figure id="vegetables" class="menu-img-container-fig">
+                    <img src="images/menu/vegetables.jpg" alt="Vegetables" title="Fresh Vegetables">
+                    <figcaption>Fresh Vegetables.</figcaption>
+                </figure>
+                <figure id="ugali" class="menu-img-container-fig">
+                    <img src="images/menu/ugali.jpg" alt="Ugali" title="Fresh Hot Ugali">
+                    <figcaption>Fresh and Hot Ugali.</figcaption>
+                </figure>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        &copy; &nbsp; 2024.
+    </footer>
+</body>
+
+</html>
